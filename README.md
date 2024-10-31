@@ -2,11 +2,7 @@
 
 Implementation of a To Do app. This app will allow a user to create a list of tasks, initially they'll be set as pending (not completed), but you will have the capacity to update it either as completed or back to pending. You'll have views for completed, pending and both, if you decide you no longer want that task in your list you can delete it and all operations on your tasks will be automatically updated.
 
-I decided to use the MERN stack as a way to practice my skills on those technologies, React, Node.js, MongoDB and Express. The idea was to practice these technologies while performing CRUD operations with a Cloud Database. Below you'll find some demo videos on different parts of the implementation, as well as a brief explanation of the development parts.
-
-* [REST API Demo Video](https://youtu.be/zbn0XOh1DtU)
-* [React Demo Video](https://youtu.be/exIs8n7u74Q)
-* [To Do App Demonstration](https://www.youtube.com/watch?v=ZS-pD5pzkss)
+I decided to use the MERN stack as a way to practice my skills on those technologies, React, Node.js, MongoDB and Express. The idea was to practice these technologies while performing CRUD operations with a Cloud Database.
 
 ## React App
 
