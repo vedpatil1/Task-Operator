@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Quicksand&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 90%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to top left, #ffcc5fcc 0%, #15b3f1 100%);
+    color: #333;
+}
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+    padding: .7rem 0;
+    color: white;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border: none;
+}
+
+main {
+    margin: 2rem auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.377);
+    width: 300px;
+    border-radius: 12px;
+}
+
+#taskList {
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    width: 13rem;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 12px;
+}
+
+#tasks {
+    padding: .4rem 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+#completedTasks,
+#activeTasks {
+    padding: .4rem 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+#addTask {
+    padding: 2.5rem;
+}
+
+#addTask button {
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.checkBoxes,
+.deleteTask {
+    margin: 0 auto;
+    height: 21px;
+    width: 25px;
+}
+
+.deleteTask {
+    background-color: transparent;
+    padding: 0px;
+    color: red;
+    font-size: larger;
+    font-weight: 900;
+}
+
+#options button {
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#taskToAdd {
+
+    border-width: .5px;
+    border-radius: 5px;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.active {
+    color: #15b3f1;
+}
+
+@media (min-width: 750px) {
+    main {
+        width: 40%;
+    }
+}
